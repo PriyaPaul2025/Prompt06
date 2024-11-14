@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #062b2d;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    z-index: 1;
+}
+.nav_links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.link a {
+    padding: 1rem;
+    padding-top: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.link a:hover{
+    background-color: black;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+}
+.container_left{
+    flex: 1;
+    background-image: url(https://img.pikbest.com/ai/illus_our/20230424/2c3d88c70cd224fc6e44634b7611e0e2.jpg!w700wp); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.left_content{
+    margin: 5rem 3rem 0 auto;
+    padding: 1rem;
+    max-width: 400px;
+    text-align: right;
+}
+.left_content h4{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color:black;
+}
+.left_content p{
+    color: black;
+}
+.container_right{
+    flex: 1.5;
+    position: relative;
+}
+.container_right img{
+    position: absolute;
+    bottom: 0;
+    left: -60%;
+    width: 40%;
+    max-width: 450px;
+}
+.right_content{
+    text-align: right;
+    max-width: 600px;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.right_content h1{
+    font-size: 8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 4rem;
+}
+.right_content h4{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: 200;
+    color: white;
+}
+.right_content p{
+    margin-bottom: 2rem;
+    color: white;
+ font-weight: 700;
+    font-size: 20px;
+}
+.right_content button{
+padding: 1rem 3rem;
+font-size: 1.5rem;
+color: white;
+background-color: #41b4ba;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s, transform 0.3s;
+font-weight: 700;
+}
+.right_content button:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px);
+}
+.socials{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+.socials span{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0.5rem;
+    margin-right: 1rem ;
+}
+.socials span:hover{
+    color: black;
+}
+.socials span:last-child{
+    margin-right: 6.5rem;
+}
